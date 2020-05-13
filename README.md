@@ -33,7 +33,7 @@ Inside this project folder use following command:
 ```
 pip install -r requirements.txt
 ```
-
+Download en core web sm
 
 
 A step by step series of examples that tell you how to get a development env running
