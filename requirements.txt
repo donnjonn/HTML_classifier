@@ -15,4 +15,3 @@ tqdm == 4.42.1
 pandas
 tensorflow
 selenium
-spacy

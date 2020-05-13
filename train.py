@@ -22,6 +22,7 @@ torch.manual_seed(SEED)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(SEED)
 np.random.seed(SEED)
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class CNN_Text(nn.Module):
     def __init__(self, le, embedding_matrix):
@@ -119,12 +120,12 @@ def plot_graph(epochs, train_loss, valid_loss):
 def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
     loss_fn = nn.CrossEntropyLoss(reduction='sum')
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=LR)
-    model.cuda()
+    model.to(device)
     # Load train and test in CUDA Memory
-    x_train = torch.tensor(train_X, dtype=torch.long).cuda()
-    y_train = torch.tensor(train_y, dtype=torch.long).cuda()
-    x_cv = torch.tensor(test_X, dtype=torch.long).cuda()
-    y_cv = torch.tensor(test_y, dtype=torch.long).cuda()
+    x_train = torch.tensor(train_X, dtype=torch.long).to(device)
+    y_train = torch.tensor(train_y, dtype=torch.long).to(device)
+    x_cv = torch.tensor(test_X, dtype=torch.long).to(device)
+    y_cv = torch.tensor(test_y, dtype=torch.long).to(device)
     # Create Torch datasets
     train = torch.utils.data.TensorDataset(x_train, y_train)
     valid = torch.utils.data.TensorDataset(x_cv, y_cv)

@@ -27,7 +27,7 @@ SAVE_MODEL_LSTM = 'bilstm_model_new.pt'
 SAVE_DICT_LSTM = 'bilstm_dict_new.pt'
 
 #Testing params
-LOAD_MODEL_NAME = "textcnn_model.pt" #Model to be tested
+LOAD_MODEL_NAME = "bilstm_model.pt" #Model to be tested
 TEST_XPATH = "//a[text()='Geendress']"
 SEARCH_ELEMENT = "Laptoplink"
 

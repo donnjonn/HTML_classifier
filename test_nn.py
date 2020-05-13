@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import *
-
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 def load_attributes(xpath):
     driver = webdriver.Firefox()
     driver.implicitly_wait(5)
@@ -25,9 +25,9 @@ def predict_single(x, model, tokenizer, le):
     x = x.lower()
     x = tokenizer.texts_to_sequences([x])
     # pad
-    x = pad_sequences(x, maxlen=maxlen)
+    x = pad_sequences(x, maxlen=MAX_LEN)
     # create dataset
-    x = torch.tensor(x, dtype=torch.long).cuda()
+    x = torch.tensor(x, dtype=torch.long).to(device)
     pred = model(x).detach()
     pred = F.softmax(pred).cpu().numpy()
     pred_chance = pred.max()
@@ -50,8 +50,8 @@ def search_element(type, tokenizer, le, model):
         attrs2 = driver.execute_script('var items = ""; var o = getComputedStyle(arguments[0]); for (index = 0; index < o.length; index++) {items+=o.getPropertyValue(o[index]); items+=" ";}; return items;', e)
         attrstext = attrs + attrs2
         attrs = tokenizer.texts_to_sequences([attrstext])
-        attrs = pad_sequences(attrs, maxlen=maxlen)
-        attrs = torch.tensor(attrs, dtype=torch.long).cuda()
+        attrs = pad_sequences(attrs, maxlen=MAX_LEN)
+        attrs = torch.tensor(attrs, dtype=torch.long).to(device)
         index = np.where(le.classes_ == type)
         pred = model(attrs).detach()
         pred = F.softmax(pred).cpu().numpy()
@@ -72,7 +72,7 @@ def test():
     # model.load_state_dict(torch.load('textcnn_dict.pt'))
     model = torch.load(LOAD_MODEL_NAME)
     model.eval()
-    model.cuda()
+    model.to(device)
     tokenizer, le, train_X, test_X, train_y, test_y, embedding_matrix = prep_data()
     #dummy_input = torch.randn(512, 750)
     #torch.onnx.export(model, dummy_input, "onnx_model_name.onnx")
