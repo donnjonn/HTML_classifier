@@ -60,19 +60,6 @@ python manage.py runserver
 The site should now be accessible at 127.0.0.1:8000
 
 
-### Build vocabulary
-First:
-```
-python -m spacy download en_core_web_sm
-```
-
-Run
-```
-python build_vector.py
-```
-This will build a vocabulary based on the attribute data of a certain website (This doesn't have to be the site you want to test).<br/>
-Or you can download a pretrained vocabulary here:
-
 ### Get attributes of new site
 
 If you want to extract attributes from your own site. Run the following command:
@@ -89,6 +76,21 @@ Afterwards to make a usable dataset out of this data, run:
 python augment_data.py
 ```
 This will generate a tsv file. with augmented data, which can be used to train your network.
+
+### Build vocabulary
+First:
+```
+python -m spacy download en_core_web_sm
+```
+
+Run
+```
+python build_vector.py
+```
+This will build a vocabulary based on the attribute data of a certain website (This doesn't have to be the site you want to test, dataset can be chosen in config.py).<br/>
+This might take a while! <br/>
+
+Or you can download a pretrained vocabulary here:
 
 ### Train the neural network
 
