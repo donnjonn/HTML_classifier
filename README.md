@@ -6,12 +6,12 @@ Classify html elements using neural networks.
 #### Windows
 Follow instructions here:<br/>
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html<br/>
-Open a conda terminal (Use this as your main terminal window).
+Open a conda terminal (Use this as your main terminal window) and create a fresh virtual environment (python 3.6).
 
 #### Mac OS
 Follow instructions here:<br/>
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html<br/>
-Open a conda terminal (Use this as your main terminal window).
+Open a conda terminal (Use this as your main terminal window) and create a fresh virtual environment (python 3.6).
 
 ### 2) Install pip
 Follow instructions here:<br/>
