@@ -6,12 +6,13 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from config import *
 
 def load_attributes(xpath):
     driver = webdriver.Firefox()
     driver.implicitly_wait(5)
     driver.maximize_window()
-    driver.get("http://127.0.0.1:8000")
+    driver.get(WEB_ADDRESS)
     el = driver.find_element_by_xpath(xpath)
     attrs = driver.execute_script('var items = ""; for (index = 0; index < arguments[0].attributes.length; ++index) {items+= arguments[0].attributes[index].value; items+=" ";}; return items;', el)
     attrs2 = driver.execute_script('var items = ""; var o = getComputedStyle(arguments[0]); for (index = 0; index < o.length; index++) {items+=o.getPropertyValue(o[index]); items+=" ";}; return items;', el)
@@ -40,7 +41,7 @@ def search_element(type, tokenizer, le, model):
     driver = webdriver.Firefox()
     driver.implicitly_wait(5)
     driver.maximize_window()
-    driver.get("http://127.0.0.1:8000")
+    driver.get(WEB_ADDRESS)
     elements1 = driver.find_elements_by_xpath("//a")
     elements2 = driver.find_elements_by_xpath("//input")
     elements = elements1 + elements2
@@ -69,18 +70,18 @@ def search_element(type, tokenizer, le, model):
 def test():
     # model = CNN_Text()
     # model.load_state_dict(torch.load('textcnn_dict.pt'))
-    model = torch.load('textcnn_model.pt')
+    model = torch.load(LOAD_MODEL_NAME)
     model.eval()
     model.cuda()
     tokenizer, le, train_X, test_X, train_y, test_y, embedding_matrix = prep_data()
     #dummy_input = torch.randn(512, 750)
     #torch.onnx.export(model, dummy_input, "onnx_model_name.onnx")
-    attrs = load_attributes("//a[text()='Geendress']")
+    attrs = load_attributes(TEST_XPATH)
     #attrs = data['element'].values[20]
     #x = data['element'].values[20]
     print(attrs)
     print(predict_single(attrs, model, tokenizer, le))
-    search_element('Laptoplink', tokenizer, le, model)
+    search_element(SEARCH_ELEMENT, tokenizer, le, model)
     
 def main():
     test()

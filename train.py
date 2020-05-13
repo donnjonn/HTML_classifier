@@ -14,33 +14,26 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import torch.onnx
 import argparse
-
+from config import *
 tqdm.pandas(desc='Progress')
 #constants
-embed_size = 300 # how big is each word vector
-max_features = 120000 # how many unique words to use (i.e num rows in embedding vector)
-maxlen = 750 # max number of words in a question to use
-batch_size = 512 # how many samples to process at once
-n_epochs = 5 # how many times to iterate over all samples
-n_splits = 5 # Number of K-fold Splits
-seed = 2020
-debug = 0
-torch.manual_seed(seed)
+
+torch.manual_seed(SEED)
 if torch.cuda.is_available():
-    torch.cuda.manual_seed_all(seed)
-np.random.seed(2020)
+    torch.cuda.manual_seed_all(SEED)
+np.random.seed(SEED)
 
 class CNN_Text(nn.Module):
     def __init__(self, le, embedding_matrix):
         super(CNN_Text, self).__init__()
-        filter_sizes = [1,2,3,5]
-        num_filters = 36
+        filter_sizes = FILTER_SIZES
+        num_filters = NUM_FILTERS
         n_classes = len(le.classes_)
-        self.embedding = nn.Embedding(max_features, embed_size)
+        self.embedding = nn.Embedding(MAX_FEATURES, EMBED_SIZE)
         self.embedding.weight = nn.Parameter(torch.tensor(embedding_matrix, dtype=torch.float32))
         self.embedding.weight.requires_grad = False
-        self.convs1 = nn.ModuleList([nn.Conv2d(1, num_filters, (K, embed_size)) for K in filter_sizes])
-        self.dropout = nn.Dropout(0.1)
+        self.convs1 = nn.ModuleList([nn.Conv2d(1, num_filters, (K, EMBED_SIZE)) for K in filter_sizes])
+        self.dropout = nn.Dropout(DROPOUT)
         self.fc1 = nn.Linear(len(filter_sizes)*num_filters, n_classes)
         
     def forward(self, x):
@@ -57,13 +50,13 @@ class CNN_Text(nn.Module):
 class BiLSTM(nn.Module):
     def __init__(self, le, embedding_matrix):
         super(BiLSTM, self).__init__()
-        self.hidden_size = 64
-        drp = 0.1
+        self.hidden_size = HIDDEN_SIZE
+        drp = DROPOUT
         n_classes = len(le.classes_)
-        self.embedding = nn.Embedding(max_features, embed_size)
+        self.embedding = nn.Embedding(MAX_FEATURES, EMBED_SIZE)
         self.embedding.weight = nn.Parameter(torch.tensor(embedding_matrix, dtype=torch.float32))
         self.embedding.weight.requires_grad = False
-        self.lstm = nn.LSTM(embed_size, self.hidden_size, bidirectional=True, batch_first=True)
+        self.lstm = nn.LSTM(EMBED_SIZE, self.hidden_size, bidirectional=True, batch_first=True)
         self.linear = nn.Linear(self.hidden_size*4 , 64)
         self.relu = nn.ReLU()
         self.dropout = nn.Dropout(drp)
@@ -98,10 +91,10 @@ def load_glove(word_index):
     all_embs = np.stack(embeddings_index.values())
     emb_mean,emb_std = -0.005838499,0.48782197
     embed_size = all_embs.shape[1]
-    nb_words = min(max_features, len(word_index)+1)
+    nb_words = min(MAX_FEATURES, len(word_index)+1)
     embedding_matrix = np.random.normal(emb_mean, emb_std, (nb_words, embed_size))
     for word, i in word_index.items():
-        if i >= max_features: continue
+        if i >= MAX_FEATURES: continue
         embedding_vector = embeddings_index.get(word)
         if embedding_vector is not None: 
             embedding_matrix[i] = embedding_vector
@@ -125,7 +118,7 @@ def plot_graph(epochs, train_loss, valid_loss):
 
 def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
     loss_fn = nn.CrossEntropyLoss(reduction='sum')
-    optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=0.001)
+    optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=LR)
     model.cuda()
     # Load train and test in CUDA Memory
     x_train = torch.tensor(train_X, dtype=torch.long).cuda()
@@ -136,8 +129,8 @@ def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
     train = torch.utils.data.TensorDataset(x_train, y_train)
     valid = torch.utils.data.TensorDataset(x_cv, y_cv)
     # Create Data Loaders
-    train_loader = torch.utils.data.DataLoader(train, batch_size=batch_size, shuffle=True)
-    valid_loader = torch.utils.data.DataLoader(valid, batch_size=batch_size, shuffle=False)
+    train_loader = torch.utils.data.DataLoader(train, batch_size=BATCH_SIZE, shuffle=True)
+    valid_loader = torch.utils.data.DataLoader(valid, batch_size=BATCH_SIZE, shuffle=False)
     train_loss = []
     valid_loss = []
     valid_acc = []
@@ -166,7 +159,7 @@ def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
             y_pred = model(x_batch).detach()
             avg_val_loss += loss_fn(y_pred, y_batch).item() / len(valid_loader)
             # keep/store predictions
-            val_preds[i * batch_size:(i+1) * batch_size] =F.softmax(y_pred).cpu().numpy()
+            val_preds[i * BATCH_SIZE:(i+1) * BATCH_SIZE] =F.softmax(y_pred).cpu().numpy()
         # Check Accuracy
         val_accuracy = sum(val_preds.argmax(axis=1)==test_y)/len(test_y)
         train_loss.append(avg_loss)
@@ -177,21 +170,21 @@ def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
                     epoch + 1, n_epochs, avg_loss, avg_val_loss, val_accuracy, elapsed_time))               
     model.eval()
     if action.action=='cnn' or not len(sys.argv)>1:
-        torch.save(model,'textcnn_model_new.pt')
-        torch.save(model.state_dict(), 'textcnn_dict_new.pt')
+        torch.save(model,SAVE_MODEL_CNN)
+        torch.save(model.state_dict(), SAVE_DICT_CNN)
     elif action.action=='lstm':
-        torch.save(model,'bilstm_model_new.pt')
-        torch.save(model.state_dict(), 'bilstm_dict_new.pt')
+        torch.save(model,SAVE_MODEL_LSTM)
+        torch.save(model.state_dict(), SAVE_DICT_LSTM)
     plot_graph(n_epochs, train_loss, valid_loss)
 
 
 def prep_tokenizer(train_X):
-    tokenizer = Tokenizer(num_words=max_features)
+    tokenizer = Tokenizer(num_words=MAX_FEATURES)
     tokenizer.fit_on_texts(list(train_X))
     return tokenizer
 
 def prep_data():
-    data = pd.read_csv("data_augment.tsv", delimiter="\t")
+    data = pd.read_csv(TSV_READ_DATA, delimiter="\t")
     msk = np.random.rand(len(data)) < 0.8
     train = data[msk]
     test = data[~msk]
@@ -218,8 +211,8 @@ def prep_data():
     tokenizer = prep_tokenizer(train_X)
     train_X = tokenizer.texts_to_sequences(train_X)
     test_X = tokenizer.texts_to_sequences(test_X)
-    train_X = pad_sequences(train_X, maxlen=maxlen)
-    test_X = pad_sequences(test_X, maxlen=maxlen)
+    train_X = pad_sequences(train_X, maxlen=MAX_LEN)
+    test_X = pad_sequences(test_X, maxlen=MAX_LEN)
     le = LabelEncoder()
     train_y = le.fit_transform(train_y.values)
     test_y = le.transform(test_y.values)
@@ -242,7 +235,7 @@ def main():
     else:
         print('Fout argument, gebruik "cnn" of "lstm"')
         sys.exit()
-    train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action)
+    train_nn(N, model, train_X, train_y, test_X, test_y, le, action)
     
 
 if __name__ == "__main__":
