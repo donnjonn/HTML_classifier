@@ -1,8 +1,5 @@
 # HTML_classifier
 Classify html elements using neural networks.
-This software will be able to c
-
-
 
 ## Prerequisites
 ### 1) Install Conda & setup virtual environment
@@ -41,7 +38,26 @@ pip install -r requirements.txt
 Most parameters can be changed in config.py
 
 ### Setup site
-Navigate to 
+Link to github-repo: https://github.com/amitkadivar1/OnlineShop.git<br/>
+This was the site I used to train and test  the neural network.<br/>
+The included dataset and networks are based on this website.<br/><br/>
+Navigate to the 'Onlineshop' folder. <br/>
+Install dependencies:
+```
+pip install requirements.txt
+```
+
+Make migrations:
+```
+python manage.py migrate
+```
+
+Start the server:
+```
+python manage.py runserver
+```
+The site should now be accessible at 127.0.0.1:8000
+
 
 ### Build vocabulary
 First:
@@ -64,7 +80,7 @@ python getattrs_any.py
 ```
 (Make sure to use the correct URL in config.py).<br/>
 Note: this doesn't work perfectly yet. <br/>
-If you want a better dataset use the site included under the folder 'django-ecommerce'.<br/>
+If you want a better dataset use the site included under the folder 'Onlineshop'.<br/>
 data_augment.tsv is a dataset generated using this site. (See 'Setup site')
 
 Afterwards to make a usable dataset out of this data, run:
