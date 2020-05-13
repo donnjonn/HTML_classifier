@@ -40,6 +40,9 @@ pip install -r requirements.txt
 ### Configuration
 Most parameters can be changed in config.py
 
+### Setup site
+Navigate to 
+
 ### Build vocabulary
 First:
 ```
@@ -59,7 +62,10 @@ If you want to extract attributes from your own site. Run the following command:
 ```
 python getattrs_any.py
 ```
-(Make sure to use the correct URL in config.py)
+(Make sure to use the correct URL in config.py).<br/>
+Note: this doesn't work perfectly yet. <br/>
+If you want a better dataset use the site included under the folder 'django-ecommerce'.<br/>
+data_augment.tsv is a dataset generated using this site. (See 'Setup site')
 
 Afterwards to make a usable dataset out of this data, run:
 ```
@@ -95,14 +101,7 @@ Then run:
 ```
 python test_nn.py
 ```
-This will first let the neural network predict the type of an element you selected in config.py. <br/>
-Then this test will try to pick an element which has the highest probability of being of the type you chose in config.py.
+This will let the neural network predict the type of an element you selected in config.py. <br/>
+Then this test will try to let the neural network pick an element which has the highest probability of being of the type you chose in config.py.
 
 
-
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
