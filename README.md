@@ -69,13 +69,13 @@ python getattrs_any.py
 (Make sure to use the correct URL in config.py).<br/>
 Note: this doesn't work perfectly yet. <br/>
 If you want a better dataset use the site included under the folder 'Onlineshop'.<br/>
-data_augment.tsv is a dataset generated using this site. (See 'Setup site')
+data_augment.tsv is a dataset generated using this site. (See 'Setup site', this dataset is already augmented)
 
 Afterwards to make a usable dataset out of this data, run:
 ```
 python augment_data.py
 ```
-This will generate a tsv file. with augmented data, which can be used to train your network.
+This will generate a tsv file with augmented data, which can be used to train your network.
 
 ### Build vocabulary
 First:
@@ -89,6 +89,7 @@ python build_vector.py
 ```
 This will build a vocabulary based on the attribute data of a certain website (This doesn't have to be the site you want to test, dataset can be chosen in config.py).<br/>
 This might take a while! <br/>
+When this is done cut and paste 'glove.6B.300d.txt' from .vector_cache to the main folder.
 
 Or you can download a pretrained vocabulary here:
 
