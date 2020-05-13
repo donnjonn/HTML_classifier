@@ -1,5 +1,7 @@
 # HTML_classifier
-Classify html elements using neural networks
+Classify html elements using neural networks.
+This software will be able to c
+
 
 
 ## Prerequisites
@@ -33,75 +35,73 @@ Inside this project folder use following command:
 ```
 pip install -r requirements.txt
 ```
-Download en core web sm
 
+## Usage
+### Configuration
+Most parameters can be changed in config.py
 
-A step by step series of examples that tell you how to get a development env running
+### Setup site
+Navigate to 
 
-Say what the step will be
-
+### Build vocabulary
+First:
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+python -m spacy download en_core_web_sm
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+Run
 ```
-Give an example
+python build_vector.py
 ```
+This will build a vocabulary based on the attribute data of a certain website (This doesn't have to be the site you want to test).<br/>
+Or you can download a pretrained vocabulary here:
 
-### And coding style tests
+### Get attributes of new site
 
-Explain what these tests test and why
-
+If you want to extract attributes from your own site. Run the following command:
 ```
-Give an example
+python getattrs_any.py
 ```
+(Make sure to use the correct URL in config.py).<br/>
+Note: this doesn't work perfectly yet. <br/>
+If you want a better dataset use the site included under the folder 'django-ecommerce'.<br/>
+data_augment.tsv is a dataset generated using this site. (See 'Setup site')
 
-## Deployment
+Afterwards to make a usable dataset out of this data, run:
+```
+python augment_data.py
+```
+This will generate a tsv file. with augmented data, which can be used to train your network.
 
-Add additional notes about how to deploy this on a live system
+### Train the neural network
 
-## Built With
+Here there are 2 options:
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+#### CNN
 
-## Contributing
+run
+```
+python train.py -n cnn
+```
+This will start training for a convolutional neural network for n epochs (ths number can be chosen in config.py)
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+#### BiLSTM
 
-## Versioning
+run
+```
+python train.py -n lstm
+```
+This will start training for a Bidirectional LSTM network for n epochs (ths number can be chosen in config.py)
+Keep in mind that training of an LSTM is slower so it might be necessary to raise the amount of epochs.
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+### Test a neural network
 
-## Authors
+First make sure to select the neural network you want to test in config.py. Make sure to change the elements you want to test according to the website the network was trained for. (also in config.py)
+Then run:
+```
+python test_nn.py
+```
+This will let the neural network predict the type of an element you selected in config.py. <br/>
+Then this test will try to let the neural network pick an element which has the highest probability of being of the type you chose in config.py.
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
