@@ -4,14 +4,14 @@ Classify html elements using neural networks
 
 ## Prerequisites
 
-###1) Install Conda & setup virtual environment
-####Windows
+### 1) Install Conda & setup virtual environment
+#### Windows
 Follow instructions here:
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
 
 Open a conda terminal.
 
-###2) Install pytorch
+### 2) Install pytorch
 Inside conda terminal install pytorch using the conda install command found here:
 https://pytorch.org/get-started/locally/
 For most modern systems following command will work:
