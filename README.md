@@ -1,20 +1,24 @@
 # HTML_classifier
 Classify html elements using neural networks
-# Project Title
 
-One Paragraph of project description goes here
 
-## Getting Started
+## Prerequisites
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+###1) Install Conda & setup virtual environment
+####Windows
+Follow instructions here:
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
 
-### Prerequisites
+Open a conda terminal.
 
-What things you need to install the software and how to install them
-
+###2) Install pytorch
+Inside conda terminal install pytorch using the conda install command found here:
+https://pytorch.org/get-started/locally/
+For most modern systems following command will work:
 ```
-Give examples
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 ```
+
 
 ### Installing
 
