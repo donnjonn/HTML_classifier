@@ -44,7 +44,7 @@ The included dataset and networks are based on this website.<br/><br/>
 Navigate to the 'Onlineshop' folder. <br/>
 Install dependencies:
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Make migrations:
