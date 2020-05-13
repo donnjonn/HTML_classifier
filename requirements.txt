@@ -1,0 +1,18 @@
+
+Keras == 2.3.1
+matplotlib
+nlpaug == 0.0.13.3
+nltk == 3.4.5
+numpy == 1.18.1
+plotly == 4.6.0
+pytest == 5.3.5
+scikit_learn == 0.22.1
+spacy == 2.2.4
+torchtext == 0.5.0
+torchvision
+torchviz == 0.0.1
+tqdm == 4.42.1
+pandas
+tensorflow
+selenium
+spacy
