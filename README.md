@@ -3,24 +3,38 @@ Classify html elements using neural networks
 
 
 ## Prerequisites
-
 ### 1) Install Conda & setup virtual environment
 #### Windows
-Follow instructions here:
-https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
+Follow instructions here:<br/>
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html<br/>
+Open a conda terminal (Use this as your main terminal window).
 
-Open a conda terminal.
+#### Mac OS
+Follow instructions here:<br/>
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html<br/>
+Open a conda terminal (Use this as your main terminal window).
 
-### 2) Install pytorch
-Inside conda terminal install pytorch using the conda install command found here:
-https://pytorch.org/get-started/locally/
+### 2) Install pip
+Follow instructions here:<br/>
+https://www.liquidweb.com/kb/install-pip-windows/<br/>
+(Idem voor Mac)
+
+####
+
+### 3) Install pytorch
+Inside conda terminal install pytorch using the conda install command found here:<br/>
+https://pytorch.org/get-started/locally/<br/>
 For most modern systems following command will work:
 ```
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 ```
+### 4) Install other dependencies
+Inside this project folder use following command:
+```
+pip install -r requirements.txt
+```
 
 
-### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
