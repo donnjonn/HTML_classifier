@@ -91,7 +91,7 @@ This will build a vocabulary based on the attribute data of a certain website (T
 This might take a while! <br/>
 When this is done cut and paste 'glove.6B.300d.txt' from .vector_cache to the main folder.
 
-Or you can download a pretrained vocabulary here:
+Or you can download a pretrained vocabulary here: https://www.dropbox.com/s/5c17s95bsyg02zy/vocabulary.zip?dl=0
 
 ### Train the neural network
 
