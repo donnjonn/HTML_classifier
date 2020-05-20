@@ -245,3 +245,720 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1589805777946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileHNKEa1"
+1589805778777	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589805779239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589805779239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589805779239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589805779239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589805781128	Marionette	INFO	Listening on port 64032
+1589805781570	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589808193848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileaTK8Ts"
+1589808194134	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589808194715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589808194715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589808194715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589808194715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589808196420	Marionette	INFO	Listening on port 64600
+1589808196457	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589808608284	Marionette	INFO	Stopped listening on port 64600
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileiaB4YD"
+1589808608484	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589808608859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589808608859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589808608859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589808608860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589808610523	Marionette	INFO	Listening on port 64784
+1589808610826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589808624535	Marionette	INFO	Stopped listening on port 64784
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589808628512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileyK4acS"
+1589808628790	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589808629202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589808629202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589808629202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589808629202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589808630863	Marionette	INFO	Listening on port 64839
+1589808631124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589808681326	Marionette	INFO	Stopped listening on port 64839
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589808685514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofile0oQdCk"
+1589808685803	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589808686188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589808686188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589808686189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589808686189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589808687771	Marionette	INFO	Listening on port 64916
+1589808688132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589808959071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilecJVBZm"
+1589808959347	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589808959836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589808959836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589808959836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589808959836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589808961521	Marionette	INFO	Listening on port 65030
+1589808961680	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1589809517517	Marionette	INFO	Stopped listening on port 65030
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589808993266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589808993266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589808993266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589808993266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589808994998	Marionette	INFO	Listening on port 65083
+1589808995239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589809518247	Marionette	INFO	Stopped listening on port 65083
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589809431075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589809431075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589809431076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589809431076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589809432891	Marionette	INFO	Listening on port 65265
+1589809433018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589809465100	Marionette	INFO	Stopped listening on port 65265
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589809518323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilesBJdb7"
+1589809518577	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589809518975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589809518975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589809518975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589809518975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589809520616	Marionette	INFO	Listening on port 65327
+1589809520931	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589809568905	Marionette	INFO	Stopped listening on port 65327
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589809572790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilexjT2wC"
+1589809573042	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589809573441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589809573442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589809573442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589809573442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589809575041	Marionette	INFO	Listening on port 65383
+1589809575399	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589809603325	Marionette	INFO	Stopped listening on port 65383
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589809607536	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofile9lTz2B"
+1589809607784	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589809608159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589809608159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589809608159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589809608159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589809609712	Marionette	INFO	Listening on port 65432
+1589809610148	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589810343530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileeHhelW"
+1589810343787	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589810344167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589810344167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589810344167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589810344167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589810345815	Marionette	INFO	Listening on port 49286
+1589810346139	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589810441333	Marionette	INFO	Stopped listening on port 49286
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589810441058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589810441058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589810441058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589810441058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589810442373	Marionette	INFO	Listening on port 49387
+1589810442414	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589875761416	Marionette	INFO	Stopped listening on port 49387
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589874610110	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589874610110	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589874610111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589874610111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589874612082	Marionette	INFO	Listening on port 59296
+1589874612164	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589875760529	Marionette	INFO	Stopped listening on port 59296
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589875102622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589875102622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589875102622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589875102622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589875104396	Marionette	INFO	Listening on port 59409
+1589875104540	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589875759632	Marionette	INFO	Stopped listening on port 59409
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589875193490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589875193491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589875193491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589875193491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589875195215	Marionette	INFO	Listening on port 59508
+1589875195383	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589875217193	Marionette	INFO	Stopped listening on port 59508
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589875258597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofile317GeJ"
+1589875258872	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589875259305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589875259306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589875259306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589875259306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589875261164	Marionette	INFO	Listening on port 59600
+1589875261206	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589875758932	Marionette	INFO	Stopped listening on port 59600
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589875311514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589875311514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589875311514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589875311514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589875313279	Marionette	INFO	Listening on port 59686
+1589875313344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589875758093	Marionette	INFO	Stopped listening on port 59686
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileARmwHD"
+1589875746747	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589875747156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589875747156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589875747156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589875747156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589875749002	Marionette	INFO	Listening on port 59802
+1589875749092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589875827145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileNbzxIc"
+1589875827431	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589875827876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589875827876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589875827876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589875827876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589875829635	Marionette	INFO	Listening on port 59887
+1589875829755	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589876195309	Marionette	INFO	Stopped listening on port 59887
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589876199587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileiSQWtj"
+1589876199863	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589876200246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589876200246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589876200246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589876200246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589876201931	Marionette	INFO	Listening on port 60017
+1589876202200	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589876269300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilem7hyUY"
+1589876269607	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589876269989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589876269989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589876269989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589876269989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589876271714	Marionette	INFO	Listening on port 60102
+1589876271911	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589876390524	Marionette	INFO	Stopped listening on port 60102
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589876385801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589876385801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589876385801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589876385801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589876387568	Marionette	INFO	Listening on port 60190
+1589876387750	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589876571485	Marionette	INFO	Stopped listening on port 60190
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589876583315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileauuppf"
+1589876583623	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589876584083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589876584083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589876584083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589876584083	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589876585922	Marionette	INFO	Listening on port 60303
+1589876585936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589879682510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileo9v5do"
+1589879683129	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589879683670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589879683670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589879683670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589879683671	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589879685305	Marionette	INFO	Listening on port 60825
+1589879685625	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589879715671	Marionette	INFO	Stopped listening on port 60825
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589879719905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilexphcrM"
+1589879720165	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589879720664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589879720664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589879720664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589879720664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589879722439	Marionette	INFO	Listening on port 60875
+1589879722519	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589880675089	Marionette	INFO	Stopped listening on port 60875
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589879880593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589879880593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589879880593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589879880593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589879882474	Marionette	INFO	Listening on port 60975
+1589879882554	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589880677549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofile60HdFV"
+1589880677837	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589880678312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589880678312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589880678312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589880678312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589880680014	Marionette	INFO	Listening on port 61108
+1589880680162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589880745449	Marionette	INFO	Stopped listening on port 61108
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589880750080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilepS1sJ3"
+1589880750356	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589880750804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589880750804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589880750804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589880750804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589880752528	Marionette	INFO	Listening on port 61192
+1589880752693	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589881574287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileizEbMa"
+1589881574543	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589881574936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589881574936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589881574936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589881574936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589881576728	Marionette	INFO	Listening on port 61322
+1589881576895	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589892940253	Marionette	INFO	Stopped listening on port 61322
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589892944593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileML8PmP"
+1589892945195	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589892945745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589892945745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589892945745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589892945745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589892947470	Marionette	INFO	Listening on port 62319
+1589892947706	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589893577842	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileseelvl"
+1589893578137	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589893578556	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589893578556	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589893578557	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589893578557	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589893580303	Marionette	INFO	Listening on port 62438
+1589893580453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589893845918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilefZhrDc"
+1589893846197	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589893846636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589893846636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589893846636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589893846636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589893848428	Marionette	INFO	Listening on port 62576
+1589893848537	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589893894934	Marionette	INFO	Stopped listening on port 62576
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589893895160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589893895161	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589893895161	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589893895161	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589893897004	Marionette	INFO	Listening on port 62662
+1589893897086	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589894181158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileP8fJUR"
+1589894181427	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589894181802	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589894181802	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589894181802	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589894181802	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589894183600	Marionette	INFO	Listening on port 62788
+1589894183770	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589894204508	Marionette	INFO	Stopped listening on port 62788
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589894370297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileCRt37i"
+1589894370600	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589894371121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589894371122	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589894371122	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589894371122	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589894372931	Marionette	INFO	Listening on port 62857
+1589894373413	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589894490798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileXsQ1dc"
+1589894491101	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589894491490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589894491490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589894491490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589894491490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589894493241	Marionette	INFO	Listening on port 63055
+1589894493419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1589897852665	Marionette	INFO	Stopped listening on port 63055
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589895471239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589895471239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589895471239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589895471239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589895472958	Marionette	INFO	Listening on port 63275
+1589895473185	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589897854076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileSLRbf5"
+1589897854356	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589897854833	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589897854833	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589897854833	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589897854833	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589897856607	Marionette	INFO	Listening on port 63575
+1589897856692	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589898000398	Marionette	INFO	Stopped listening on port 63575
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589897998476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589897998476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589897998476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589897998476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589898000242	Marionette	INFO	Listening on port 63644
+1589898000646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1589898025925	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1589898030443	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1589958175727	Marionette	INFO	Stopped listening on port 63644
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589958301139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileq0S3sk"
+1589958301746	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589958302159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589958302159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589958302159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589958302159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589958304023	Marionette	INFO	Listening on port 54758
+1589958304251	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1589958431092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileTwIDZG"
