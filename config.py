@@ -10,6 +10,9 @@ AUG_AMOUNT = 200
 
 #Get attributes
 TSV_NEW = "attributes_new.tsv" #Where to save attributes
+USERNAME = 'jonas'
+PASSWORD = '123'
+EMAIL = 'jonas_michiels5@hotmail.com'
 
 #Word2vec params
 EMBED_SIZE = 300 # how big is each word vector
