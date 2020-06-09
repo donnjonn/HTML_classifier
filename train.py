@@ -15,9 +15,11 @@ import matplotlib.pyplot as plt
 import torch.onnx
 import argparse
 from config import *
+import config as cfg
+#from test_ui import *
 tqdm.pandas(desc='Progress')
 #constants
-
+progress = 0
 torch.manual_seed(SEED)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(SEED)
@@ -107,6 +109,7 @@ def load_glove(word_index):
 
 
 def plot_graph(epochs, train_loss, valid_loss):
+    
     fig = plt.figure(figsize=(12,12))
     plt.title("Train/Validation Loss")
     plt.plot(list(np.arange(epochs) + 1) , train_loss, label='train')
@@ -118,6 +121,7 @@ def plot_graph(epochs, train_loss, valid_loss):
 
 
 def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
+    import config as cfg
     loss_fn = nn.CrossEntropyLoss(reduction='sum')
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=LR)
     model.to(device)
@@ -130,12 +134,13 @@ def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
     train = torch.utils.data.TensorDataset(x_train, y_train)
     valid = torch.utils.data.TensorDataset(x_cv, y_cv)
     # Create Data Loaders
-    train_loader = torch.utils.data.DataLoader(train, batch_size=BATCH_SIZE, shuffle=True)
-    valid_loader = torch.utils.data.DataLoader(valid, batch_size=BATCH_SIZE, shuffle=False)
+    train_loader = torch.utils.data.DataLoader(train, batch_size=cfg.BATCH_SIZE, shuffle=True)
+    valid_loader = torch.utils.data.DataLoader(valid, batch_size=cfg.BATCH_SIZE, shuffle=False)
     train_loss = []
     valid_loss = []
     valid_acc = []
     for epoch in range(n_epochs):
+        
         start_time = time.time()
         # Set model to train configuration
         model.train()
@@ -168,7 +173,10 @@ def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
         valid_acc.append(val_accuracy)
         elapsed_time = time.time() - start_time 
         print('Epoch {}/{} \t loss={:.4f} \t val_loss={:.4f}  \t val_acc={:.4f}  \t time={:.2f}s'.format(
-                    epoch + 1, n_epochs, avg_loss, avg_val_loss, val_accuracy, elapsed_time))               
+                    epoch + 1, n_epochs, avg_loss, avg_val_loss, val_accuracy, elapsed_time))  
+        global progress
+        progress += 1
+        
     model.eval()
     if action.action=='cnn' or not len(sys.argv)>1:
         torch.save(model,SAVE_MODEL_CNN)
@@ -185,7 +193,12 @@ def prep_tokenizer(train_X):
     return tokenizer
 
 def prep_data():
-    data = pd.read_csv(TSV_READ_DATA, delimiter="\t")
+    
+    import config as cfg
+    
+    
+    print(cfg.TSV_READ_DATA)
+    data = pd.read_csv(cfg.TSV_READ_DATA, delimiter="\t")
     msk = np.random.rand(len(data)) < 0.8
     train = data[msk]
     test = data[~msk]
@@ -212,8 +225,8 @@ def prep_data():
     tokenizer = prep_tokenizer(train_X)
     train_X = tokenizer.texts_to_sequences(train_X)
     test_X = tokenizer.texts_to_sequences(test_X)
-    train_X = pad_sequences(train_X, maxlen=MAX_LEN)
-    test_X = pad_sequences(test_X, maxlen=MAX_LEN)
+    train_X = pad_sequences(train_X, maxlen=cfg.MAX_LEN)
+    test_X = pad_sequences(test_X, maxlen=cfg.MAX_LEN)
     le = LabelEncoder()
     train_y = le.fit_transform(train_y.values)
     test_y = le.transform(test_y.values)

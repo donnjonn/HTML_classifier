@@ -25,20 +25,20 @@ class RecursiveLinkTest:
         
     def linkTest(self, counter):
         #loop over all the a elements in the page
-        if self.name in driver.current_url:
+        if self.name in self.driver.current_url:
             print(name)
-            old_url = driver.current_url
-            print(driver.current_url)
+            old_url = self.driver.current_url
+            print(self.driver.current_url)
             for i in range(len(self.driver.find_elements_by_tag_name("a"))):
                 print(old_url)
-                print(driver.current_url)
-                if old_url != driver.current_url:
-                    driver.get(old_url)
+                print(self.driver.current_url)
+                if old_url != self.driver.current_url:
+                    self.driver.get(old_url)
                 #print(self.driver.find_elements_by_tag_name("a"))
                 #print(i)
                 link = self.driver.find_elements_by_tag_name("a")[i]
-                attrs = driver.execute_script('var items = ""; for (index = 0; index < arguments[0].attributes.length; ++index) {items+= arguments[0].attributes[index].value; items+=" ";}; return items;', link)
-                attrs2 = driver.execute_script('var items = ""; var o = getComputedStyle(arguments[0]); for (index = 0; index < o.length; index++) {items+=o.getPropertyValue(o[index]); items+=" ";}; return items;', link)
+                attrs = self.driver.execute_script('var items = ""; for (index = 0; index < arguments[0].attributes.length; ++index) {items+= arguments[0].attributes[index].value; items+=" ";}; return items;', link)
+                attrs2 = self.driver.execute_script('var items = ""; var o = getComputedStyle(arguments[0]); for (index = 0; index < o.length; index++) {items+=o.getPropertyValue(o[index]); items+=" ";}; return items;', link)
                 attrs = attrs + attrs2
                 if attrs not in self.attr_list:
                     self.attr_list.append(attrs)
@@ -54,38 +54,44 @@ class RecursiveLinkTest:
                         linkAlreadyVisited.append(txt)
                         rcl = RecursiveLinkTest(self.driver, self.name, self.attr_list, self.attr_dict)
                         self.attr_list = rcl.linkTest(counter)
-                    driver.back()
+                    self.driver.back()
         return self.attr_list
             
 
+def extract_el():
+    import config as cfg
+    counter = 0
+    attr_dict = {}
+    visited = []
+    forms_filledin = ''
+    driver = webdriver.Firefox()
+    driver.implicitly_wait(5)
+    driver.get(cfg.WEB_ADDRESS)
+    rcl = RecursiveLinkTest(driver,name, [], {})
+    attr_list = rcl.linkTest(0)
+    print(attr_dict)
+    print('length:',len(attr_list))
+    for i in  range(len(attr_list)):
+        attr_dict[i] = attr_list[i]
+        
 
-counter = 0
-attr_dict = {}
-visited = []
-forms_filledin = ''
-driver = webdriver.Firefox()
-driver.implicitly_wait(5)
-driver.get(WEB_ADDRESS)
-rcl = RecursiveLinkTest(driver,name, [], {})
-attr_list = rcl.linkTest(0)
-print(attr_dict)
-print('length:',len(attr_list))
-for i in  range(len(attr_list)):
-    attr_dict[i] = attr_list[i]
-    
-
-csv_columns = ['element', 'attributes']
-csv_file = TSV_NEW
-try:
-    with open(csv_file, 'w', newline="") as csvfile:
-        writer = csv.writer(csvfile, dialect='excel', delimiter='\t')
-        for key, value in attr_dict.items():
-            writer.writerow([key, value])
-except IOError:
-    print("I/O error\n\n\n")
+    csv_columns = ['element', 'attributes']
+    csv_file = cfg.TSV_NEW
+    try:
+        with open(csv_file, 'w', newline="") as csvfile:
+            writer = csv.writer(csvfile, dialect='excel', delimiter='\t')
+            writer.writerow(['type', 'element', 'nummer'])
+            for key, value in attr_dict.items():
+                writer.writerow([key, value])
+    except IOError:
+        print("I/O error\n\n\n")
 
 
+def main():
+    extract_el()
 
+if __name__ == "__main__":
+    main()
 
 
 

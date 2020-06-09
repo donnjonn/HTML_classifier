@@ -1,4 +1,5 @@
 from train import *
+from train import prep_data
 import torch
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -7,12 +8,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import *
+import config as cfg
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 def load_attributes(xpath):
+    import config as cfg
     driver = webdriver.Firefox()
     driver.implicitly_wait(5)
     driver.maximize_window()
-    driver.get(WEB_ADDRESS)
+    driver.get(cfg.WEB_ADDRESS)
     el = driver.find_element_by_xpath(xpath)
     attrs = driver.execute_script('var items = ""; for (index = 0; index < arguments[0].attributes.length; ++index) {items+= arguments[0].attributes[index].value; items+=" ";}; return items;', el)
     attrs2 = driver.execute_script('var items = ""; var o = getComputedStyle(arguments[0]); for (index = 0; index < o.length; index++) {items+=o.getPropertyValue(o[index]); items+=" ";}; return items;', el)
@@ -20,12 +23,13 @@ def load_attributes(xpath):
     driver.quit()
     return attrs
 
-def predict_single(x, model, tokenizer, le):    
+def predict_single(x, model, tokenizer, le):
+    import config as cfg
     # lower the text
     x = x.lower()
     x = tokenizer.texts_to_sequences([x])
     # pad
-    x = pad_sequences(x, maxlen=MAX_LEN)
+    x = pad_sequences(x, maxlen=cfg.MAX_LEN)
     # create dataset
     x = torch.tensor(x, dtype=torch.long).to(device)
     pred = model(x).detach()
@@ -37,11 +41,12 @@ def predict_single(x, model, tokenizer, le):
     return pred_chance, pred[0], pred_class[0]
     
 def search_element(type, tokenizer, le, model):
+    import config as cfg
     max_prob = 0.0
     driver = webdriver.Firefox()
     driver.implicitly_wait(5)
     driver.maximize_window()
-    driver.get(WEB_ADDRESS)
+    driver.get(cfg.WEB_ADDRESS)
     elements1 = driver.find_elements_by_xpath("//a")
     elements2 = driver.find_elements_by_xpath("//input")
     elements = elements1 + elements2
@@ -50,7 +55,7 @@ def search_element(type, tokenizer, le, model):
         attrs2 = driver.execute_script('var items = ""; var o = getComputedStyle(arguments[0]); for (index = 0; index < o.length; index++) {items+=o.getPropertyValue(o[index]); items+=" ";}; return items;', e)
         attrstext = attrs + attrs2
         attrs = tokenizer.texts_to_sequences([attrstext])
-        attrs = pad_sequences(attrs, maxlen=MAX_LEN)
+        attrs = pad_sequences(attrs, maxlen=cfg.MAX_LEN)
         attrs = torch.tensor(attrs, dtype=torch.long).to(device)
         index = np.where(le.classes_ == type)
         pred = model(attrs).detach()
@@ -68,20 +73,21 @@ def search_element(type, tokenizer, le, model):
     apply_style("background: red; border: 10px solid red;")
 
 def test():
+    import config as cfg
     # model = CNN_Text()
     # model.load_state_dict(torch.load('textcnn_dict.pt'))
-    model = torch.load(LOAD_MODEL_NAME)
+    model = torch.load(cfg.LOAD_MODEL_NAME)
     model.eval()
     model.to(device)
     tokenizer, le, train_X, test_X, train_y, test_y, embedding_matrix = prep_data()
     #dummy_input = torch.randn(512, 750)
     #torch.onnx.export(model, dummy_input, "onnx_model_name.onnx")
-    attrs = load_attributes(TEST_XPATH)
+    attrs = load_attributes(cfg.TEST_XPATH)
     #attrs = data['element'].values[20]
     #x = data['element'].values[20]
     print(attrs)
     print(predict_single(attrs, model, tokenizer, le))
-    search_element(SEARCH_ELEMENT, tokenizer, le, model)
+    search_element(cfg.SEARCH_ELEMENT, tokenizer, le, model)
     
 def main():
     test()

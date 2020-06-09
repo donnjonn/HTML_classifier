@@ -2664,3 +2664,578 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1590584424406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilenZl02g"
+1590584424675	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590584425058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590584425058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590584425059	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590584425059	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590584427068	Marionette	INFO	Listening on port 62483
+1590584427515	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2a008290075125adde2d7b849b06a0bb.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1590601211629	Marionette	INFO	Stopped listening on port 62483
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591603280805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilenodj7p"
+1591603281682	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591603282065	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591603282065	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591603282065	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591603282065	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591603283920	Marionette	INFO	Listening on port 49336
+1591603284419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591603292146	Marionette	INFO	Stopped listening on port 49336
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591603395755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileawK0p9"
+1591603396011	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591603396392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591603396393	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591603396393	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591603396393	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591603398018	Marionette	INFO	Listening on port 49391
+1591603398364	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591603398857	Marionette	INFO	Stopped listening on port 49391
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591603403686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileTYNyW2"
+1591603403926	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591603404297	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591603404297	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591603404297	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591603404297	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591603405884	Marionette	INFO	Listening on port 49434
+1591603406298	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591603422210	Marionette	INFO	Stopped listening on port 49434
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591603478214	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofile6cXfye"
+1591603478459	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591603478845	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591603478846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591603478846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591603478846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591603480508	Marionette	INFO	Listening on port 49481
+1591603480831	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591603481274	Marionette	INFO	Stopped listening on port 49481
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591603485192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileQITW9A"
+1591603485448	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591603485859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591603485859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591603485859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591603485859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591603487428	Marionette	INFO	Listening on port 49525
+1591603487801	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591603499739	Marionette	INFO	Stopped listening on port 49525
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591705009827	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilez2fHCS"
+1591705010704	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591705011170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591705011170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591705011170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591705011170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591705013026	Marionette	INFO	Listening on port 53472
+1591705013441	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591705456857	Marionette	INFO	Stopped listening on port 53472
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591705406543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591705406544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591705406544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591705406544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591705408223	Marionette	INFO	Listening on port 53565
+1591705408543	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591705412020	Marionette	INFO	Stopped listening on port 53565
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591705461480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilee9soXz"
+1591705461730	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591705462096	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591705462097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591705462097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591705462097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591705463724	Marionette	INFO	Listening on port 53612
+1591705464090	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591705467036	Marionette	INFO	Stopped listening on port 53612
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591705485204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilef4hPBt"
+1591705485444	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591705485814	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591705485814	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591705485814	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591705485814	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591705487369	Marionette	INFO	Listening on port 53660
+1591705487813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.86df6234483a1fa251e365dd8643c136.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.86df6234483a1fa251e365dd8643c136.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.86df6234483a1fa251e365dd8643c136.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1591706271288	Marionette	INFO	Stopped listening on port 53660
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591707753290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileN6nc4A"
+1591707753539	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591707753916	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591707753916	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591707753917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591707753917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591707755549	Marionette	INFO	Listening on port 54047
+1591707755899	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1591707761951	Marionette	INFO	Stopped listening on port 54047
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591708252402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilerB328g"
+1591708252676	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591708253101	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591708253101	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591708253101	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591708253101	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591708254757	Marionette	INFO	Listening on port 54180
+1591708255011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591708257312	Marionette	INFO	Stopped listening on port 54180
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591709175986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileuPfIZJ"
+1591709176230	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591709176594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591709176594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591709176595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591709176595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591709178155	Marionette	INFO	Listening on port 54310
+1591709178603	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14592, Chrome_ChildThread] WARNING: pipe error: 232: file Z:/task_1585933993/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 514
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+1591709180760	Marionette	INFO	Stopped listening on port 54310
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591711030706	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofile5oa5uy"
+1591711030961	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591711031335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591711031335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591711031335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591711031335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591711032986	Marionette	INFO	Listening on port 54666
+1591711033319	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591711035743	Marionette	INFO	Stopped listening on port 54666
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591711063056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileE41f64"
+1591711063330	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591711063750	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591711063751	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591711063751	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591711063751	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591711065334	Marionette	INFO	Listening on port 54754
+1591711065667	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591711069699	Marionette	INFO	Stopped listening on port 54754
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591711527230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileA9tusa"
+1591711527481	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591711527845	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591711527845	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591711527845	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591711527845	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591711529420	Marionette	INFO	Listening on port 54820
+1591711529842	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.86df6234483a1fa251e365dd8643c136.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.86df6234483a1fa251e365dd8643c136.html?origin=https%3A%2F%2Fwww.django-rest-framework.org, line 12: Error: Network error.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+1591711560075	Marionette	INFO	Stopped listening on port 54820
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591711597436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilejsoTkB"
+1591711597683	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591711598052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591711598052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591711598052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591711598052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591711599689	Marionette	INFO	Listening on port 54945
+1591711600046	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1591712391400	Marionette	INFO	Stopped listening on port 54945
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591728738149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofilezHL9gm"
+1591728739032	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591728739483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591728739484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591728739484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591728739484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591728741455	Marionette	INFO	Listening on port 57265
+1591728741768	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/actors/ThumbnailsChild.jsm, line 29: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1591729482410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jonas\\AppData\\Local\\Temp\\rust_mozprofileDce1d9"
+1591729482668	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591729483092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591729483092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591729483092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591729483092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591729484803	Marionette	INFO	Listening on port 57563
+1591729485018	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://127.0.0.1:8000/static/rest_framework/js/jquery-3.3.1.min.js, line 2: TypeError: e.indexOf is not a function
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591729492904	Marionette	INFO	Stopped listening on port 57563
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

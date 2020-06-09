@@ -6,9 +6,14 @@ from config import *
 
 
 def augment_data(csv_read, csv_write, aug_amount):
+    first = True
     with open(csv_read,'r') as datar, open(csv_write, 'w', newline='') as dataw:
         w = csv.writer(dataw, delimiter="\t")
-        for row in csv.reader(datar, delimiter=','):
+        for row in csv.reader(datar, delimiter='\t'):
+            if first == True:
+                w.writerow(row)
+                first = False
+                continue
             print(row)
             w.writerow(row)
             text = row[1]
@@ -20,7 +25,7 @@ def augment_data(csv_read, csv_write, aug_amount):
                 w.writerow([row[0], augmented_text])
                 
 def main():
-    augment_data(CSV_READ_AUGMENT, CSV_WRITE, AUG_AMOUNT)
+    augment_data(TSV_NEW, CSV_WRITE, AUG_AMOUNT)
 
 if __name__ == "__main__":
     main()
