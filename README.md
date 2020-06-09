@@ -59,8 +59,15 @@ python manage.py runserver
 ```
 The site should now be accessible at 127.0.0.1:8000
 
+### Use GUI
+Run
+```
+python test_ui.py
+```
+Her you will be able to use the full set of functionalities included in this repository. 
 
-### Get attributes of new site
+### Use commandline
+#### Get attributes of new site
 
 If you want to extract attributes from your own site. Run the following command:
 ```
@@ -77,7 +84,7 @@ python augment_data.py
 ```
 This will generate a tsv file with augmented data, which can be used to train your network.
 
-### Build vocabulary
+#### Build vocabulary
 First:
 ```
 python -m spacy download en_core_web_sm
@@ -93,11 +100,11 @@ When this is done cut and paste 'glove.6B.300d.txt' from .vector_cache to the ma
 
 Or you can download a pretrained vocabulary here: https://www.dropbox.com/s/5c17s95bsyg02zy/vocabulary.zip?dl=0
 
-### Train the neural network
+#### Train the neural network
 
 Here there are 2 options:
 
-#### CNN
+##### CNN
 
 run
 ```
@@ -105,7 +112,7 @@ python train.py -n cnn
 ```
 This will start training for a convolutional neural network for n epochs (ths number can be chosen in config.py)
 
-#### BiLSTM
+##### BiLSTM
 
 run
 ```
@@ -114,7 +121,7 @@ python train.py -n lstm
 This will start training for a Bidirectional LSTM network for n epochs (ths number can be chosen in config.py)
 Keep in mind that training of an LSTM is slower so it might be necessary to raise the amount of epochs.
 
-### Test a neural network
+#### Test a neural network
 
 First make sure to select the neural network you want to test in config.py. Make sure to change the elements you want to test according to the website the network was trained for. (also in config.py)
 Then run:
@@ -124,4 +131,10 @@ python test_nn.py
 This will let the neural network predict the type of an element you selected in config.py. <br/>
 Then this test will try to let the neural network pick an element which has the highest probability of being of the type you chose in config.py.
 
-
+### How to use for testing purposes (pipeline)
+This software can be used in testing when following the following steps: <br/>
+1. Extract the elements of the site you want to run (using the included crawler or write a better one for the specific site). This shuold be done regularly to avoid elements not being recognized by the neural network.
+2. Write working selenium test(s) for the site to be tested.
+3. While running test --> Feed each element  to the neural network --> save the ID returned by the NN for each element
+4. When a change has been applied to the website build, this may cause the test to return an error.
+5. When this happens, loop over page where the test gets stuck, feed each element to the NN and let it return the probability an element is the element which is needed for the test to continue (using the saved ID). If there's one or more elements with a probability higher than a certain threshold, let the tester choose which element to continue with. If an element is not recognzed by the NN (probability of any element is below certain threshold), add it to the data, augment it, and retrain the network. When no element has a high enough probability of being the required element, debugging manually will be necessary. 
