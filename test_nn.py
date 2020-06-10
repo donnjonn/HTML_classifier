@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import *
 import config as cfg
+import importlib
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 def load_attributes(xpath):
     import config as cfg
@@ -57,10 +58,16 @@ def search_element(type, tokenizer, le, model):
         attrs = tokenizer.texts_to_sequences([attrstext])
         attrs = pad_sequences(attrs, maxlen=cfg.MAX_LEN)
         attrs = torch.tensor(attrs, dtype=torch.long).to(device)
-        index = np.where(le.classes_ == type)
+        index = np.where(np.array(le.classes_) == type)
+        
         pred = model(attrs).detach()
         pred = F.softmax(pred).cpu().numpy()
-        print(float(pred[0][index][0]))
+        print(pred)
+        print(le.classes_)
+        print(type)
+        print(index)
+        print(pred[0][index])
+        #print(float(pred[0][index][0]))
         if float(pred[0][index][0]) > max_prob:
             print(pred[0][index][0], '>', max_prob)
             max_prob = pred[0][index][0]
@@ -74,6 +81,7 @@ def search_element(type, tokenizer, le, model):
 
 def test():
     import config as cfg
+    importlib.reload(cfg)
     # model = CNN_Text()
     # model.load_state_dict(torch.load('textcnn_dict.pt'))
     model = torch.load(cfg.LOAD_MODEL_NAME)

@@ -2,7 +2,7 @@ import csv
 import nlpaug.augmenter.char as nac
 import nlpaug.augmenter.word as naw
 from config import *
-
+import config as cfg
 
 
 def augment_data(csv_read, csv_write, aug_amount):

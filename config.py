@@ -19,14 +19,14 @@ MAX_LEN = 750 # max number of words in a question to use
 TSV_READ_DATA = 'data_augment.tsv'
 LR = 0.001 #Learning Rate
 BATCH_SIZE = 256 # how many samples to process at once
-N = 5 # how many times to iterate over all samples
-SAVE_MODEL_CNN = 'textcnn_model_new.pt'
-SAVE_DICT_CNN = 'textcnn_dict_new.pt'
+N = 4# how many times to iterate over all samples
+SAVE_MODEL_CNN = 'textcnn_model_blog.pt'
+SAVE_DICT_CNN = 'textcnn_dict_blog.pt'
 SAVE_MODEL_LSTM = 'bilstm_model_new.pt'
 SAVE_DICT_LSTM = 'bilstm_dict_new.pt'
 #Testing params
 LOAD_MODEL_NAME = "bilstm_model.pt" #Model to be tested
-TEST_XPATH = "//a[text()='Geendress']"
+TEST_XPATH = "//a[text()='Geenlaptop']"
 SEARCH_ELEMENT = "Laptoplink"
 #CNN params
 FILTER_SIZES = [1,2,3,5]

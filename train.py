@@ -16,6 +16,7 @@ import torch.onnx
 import argparse
 from config import *
 import config as cfg
+import importlib
 #from test_ui import *
 tqdm.pandas(desc='Progress')
 #constants
@@ -27,16 +28,18 @@ np.random.seed(SEED)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class CNN_Text(nn.Module):
+    import config as cfg
+    importlib.reload(cfg)
     def __init__(self, le, embedding_matrix):
         super(CNN_Text, self).__init__()
-        filter_sizes = FILTER_SIZES
-        num_filters = NUM_FILTERS
+        filter_sizes = cfg.FILTER_SIZES
+        num_filters = cfg.NUM_FILTERS
         n_classes = len(le.classes_)
-        self.embedding = nn.Embedding(MAX_FEATURES, EMBED_SIZE)
+        self.embedding = nn.Embedding(cfg.MAX_FEATURES, cfg.EMBED_SIZE)
         self.embedding.weight = nn.Parameter(torch.tensor(embedding_matrix, dtype=torch.float32))
         self.embedding.weight.requires_grad = False
-        self.convs1 = nn.ModuleList([nn.Conv2d(1, num_filters, (K, EMBED_SIZE)) for K in filter_sizes])
-        self.dropout = nn.Dropout(DROPOUT)
+        self.convs1 = nn.ModuleList([nn.Conv2d(1, num_filters, (K, cfg.EMBED_SIZE)) for K in filter_sizes])
+        self.dropout = nn.Dropout(cfg.DROPOUT)
         self.fc1 = nn.Linear(len(filter_sizes)*num_filters, n_classes)
         
     def forward(self, x):
@@ -51,15 +54,17 @@ class CNN_Text(nn.Module):
        
        
 class BiLSTM(nn.Module):
+    import config as cfg
+    importlib.reload(cfg)
     def __init__(self, le, embedding_matrix):
         super(BiLSTM, self).__init__()
-        self.hidden_size = HIDDEN_SIZE
-        drp = DROPOUT
+        self.hidden_size = cfg.HIDDEN_SIZE
+        drp = cfg.DROPOUT
         n_classes = len(le.classes_)
-        self.embedding = nn.Embedding(MAX_FEATURES, EMBED_SIZE)
+        self.embedding = nn.Embedding(cfg.MAX_FEATURES, cfg.EMBED_SIZE)
         self.embedding.weight = nn.Parameter(torch.tensor(embedding_matrix, dtype=torch.float32))
         self.embedding.weight.requires_grad = False
-        self.lstm = nn.LSTM(EMBED_SIZE, self.hidden_size, bidirectional=True, batch_first=True)
+        self.lstm = nn.LSTM(cfg.EMBED_SIZE, self.hidden_size, bidirectional=True, batch_first=True)
         self.linear = nn.Linear(self.hidden_size*4 , 64)
         self.relu = nn.ReLU()
         self.dropout = nn.Dropout(drp)
@@ -122,6 +127,7 @@ def plot_graph(epochs, train_loss, valid_loss):
 
 def train_nn(n_epochs, model, train_X, train_y, test_X, test_y, le, action):
     import config as cfg
+    importlib.reload(cfg)
     loss_fn = nn.CrossEntropyLoss(reduction='sum')
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=LR)
     model.to(device)
@@ -195,7 +201,7 @@ def prep_tokenizer(train_X):
 def prep_data():
     
     import config as cfg
-    
+    importlib.reload(cfg)
     
     print(cfg.TSV_READ_DATA)
     data = pd.read_csv(cfg.TSV_READ_DATA, delimiter="\t")

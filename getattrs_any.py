@@ -37,9 +37,13 @@ class RecursiveLinkTest:
                 #print(self.driver.find_elements_by_tag_name("a"))
                 #print(i)
                 link = self.driver.find_elements_by_tag_name("a")[i]
-                attrs = self.driver.execute_script('var items = ""; for (index = 0; index < arguments[0].attributes.length; ++index) {items+= arguments[0].attributes[index].value; items+=" ";}; return items;', link)
-                attrs2 = self.driver.execute_script('var items = ""; var o = getComputedStyle(arguments[0]); for (index = 0; index < o.length; index++) {items+=o.getPropertyValue(o[index]); items+=" ";}; return items;', link)
-                attrs = attrs + attrs2
+                try:
+                    attrs = self.driver.execute_script('var items = ""; for (index = 0; index < arguments[0].attributes.length; ++index) {items+= arguments[0].attributes[index].value; items+=" ";}; return items;', link)
+                    attrs2 = self.driver.execute_script('var items = ""; var o = getComputedStyle(arguments[0]); for (index = 0; index < o.length; index++) {items+=o.getPropertyValue(o[index]); items+=" ";}; return items;', link)
+                    attrs = attrs + attrs2
+                
+                except StaleElementReferenceException:
+                    continue
                 if attrs not in self.attr_list:
                     self.attr_list.append(attrs)
                     print('length:',len(self.attr_list))
@@ -60,6 +64,7 @@ class RecursiveLinkTest:
 
 def extract_el():
     import config as cfg
+    importlib.reload(cfg)
     counter = 0
     attr_dict = {}
     visited = []
@@ -70,6 +75,7 @@ def extract_el():
     rcl = RecursiveLinkTest(driver,name, [], {})
     attr_list = rcl.linkTest(0)
     print(attr_dict)
+    driver.close()
     print('length:',len(attr_list))
     for i in  range(len(attr_list)):
         attr_dict[i] = attr_list[i]

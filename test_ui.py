@@ -29,7 +29,9 @@ from test_nn import *
 from augment_data import *
 from kivy.graphics import *
 import os
- 
+import importlib
+
+TEMP_NET = ""
 popup_open = False 
 class MyBrowser(Popup):
  
@@ -60,6 +62,18 @@ class MyBrowser(Popup):
                     # print(f.read()) 
             self.dismiss()
             popup_open = False
+        elif type == 'trainnet':
+            print(filename)
+            if len(filename) > 0:
+                global TEMP_NET
+                TEMP_NET = filename[0]
+                print(TEMP_NET)
+                # with open(os.path.join(path, filename[0])) as f:
+                    # print(f.read()) 
+            self.dismiss()
+            popup_open = False
+            
+            
         elif type=="test":
             print(filename)
             if len(filename) > 0:
@@ -95,6 +109,16 @@ class MyBrowser(Popup):
             if len(filename) > 0:
                 cfg.CSV_WRITE = filename[0]
                 print(cfg.TSV_NEW)
+                # with open(os.path.join(path, filename[0])) as f:
+                    # print(f.read()) 
+            self.dismiss()
+            popup_open = False
+        
+        elif type=="testdata":
+            print(filename)
+            if len(filename) > 0:
+                cfg.TSV_READ_DATA = filename[0]
+                print(cfg.TSV_READ_DATA)
                 # with open(os.path.join(path, filename[0])) as f:
                     # print(f.read()) 
             self.dismiss()
@@ -200,6 +224,16 @@ class MyWidget(BoxLayout):
         subcont1.add_widget(browse_btn)
         container.add_widget(l)
         container.add_widget(subcont1)
+        
+        l = Label(text='Choose path for model (end with <.pt>)')
+        subcont8 = BoxLayout(orientation = 'horizontal')
+        self.textinput8 = TextInput(text = self.netpath, hint_text ='Select modelfile (.pt)', size_hint=(.9, 1))
+        browse_btn8 = Button(text='...', size_hint=(.1, 1))
+        browse_btn8.bind(on_release=lambda x: self.show_trainnet())
+        subcont8.add_widget(self.textinput8)
+        subcont8.add_widget(browse_btn8)
+        container.add_widget(l)
+        container.add_widget(subcont8)
         l2 = Label(text='Train CNN or BiLSTM')
         train_cnn_btn = Button(text='Train cnn', size_hint=(.5, 1))
         train_cnn_btn.bind(on_release=lambda x: self.train_cnn())
@@ -213,7 +247,7 @@ class MyWidget(BoxLayout):
         #container.add_widget(self.progress_bar)
         h = Label(text='TESTING', font_size='30sp')
         container.add_widget(h)
-        l2 = Label(text='Select model to use for testing')
+        l2 = Label(text='Select model to use for testing (make sure the correct TEST_XPATH and SEARCH_ELEMENT are selected in config.py)')
         container.add_widget(l2)
         subcont3 = BoxLayout(orientation = 'horizontal')
         self.textinput2 = TextInput(text = self.netpath, hint_text ='Select pt file', size_hint=(.9, 1))
@@ -222,6 +256,17 @@ class MyWidget(BoxLayout):
         subcont3.add_widget(self.textinput2)
         subcont3.add_widget(browse_btn2)
         container.add_widget(subcont3)
+        
+        l2 = Label(text='Select data to use for testing (data on which the model has been trained)')
+        container.add_widget(l2)
+        subcont7 = BoxLayout(orientation = 'horizontal')
+        self.textinput7 = TextInput(text = self.filepath, hint_text ='Select tsv file)', size_hint=(.9, 1))
+        browse_btn7 = Button(text='...', size_hint=(.1, 1))
+        browse_btn7.bind(on_release=lambda x: self.show_testdata())
+        subcont7.add_widget(self.textinput7)
+        subcont7.add_widget(browse_btn7)
+        container.add_widget(subcont7)
+        
         test_btn = Button(text="test selected model")
         test_btn.bind(on_release=lambda x: self.test_net())
         container.add_widget(test_btn)
@@ -277,11 +322,14 @@ class MyWidget(BoxLayout):
     
     def augment(self):
         import config as cfg
+        importlib.reload(cfg)
         cfg.TSV_NEW = self.textinput5.text
         cfg.CSV_WRITE = self.textinput6.text
         augment_data(cfg.TSV_NEW, cfg.CSV_WRITE, cfg.AUG_AMOUNT)
     
     def extract(self):
+        import config as cfg
+        importlib.reload(cfg)
         cfg.WEB_ADDRESS = self.textinput3.text
         cfg.TSV_NEW = self.textinput4.text
         extract_el()
@@ -292,10 +340,12 @@ class MyWidget(BoxLayout):
      
     def update_train(self):
         self.textinput.text = cfg.TSV_READ_DATA
+        self.textinput8.text = TEMP_NET
     
     def update_test(self):
         self.textinput2.text = cfg.LOAD_MODEL_NAME
-    
+        self.textinput7.text = cfg.TSV_READ_DATA
+        
     def update_ext(self):
         self.textinput4.text = cfg.TSV_NEW
     
@@ -305,10 +355,20 @@ class MyWidget(BoxLayout):
     def update_augwrite(self):
         self.textinput6.text = cfg.CSV_WRITE
     
+    def update_testdata(self):
+        self.textinput7.text = cfg.TSV_READ_DATA
+    
     def set_config(self):
         popupWindow = MyConfig()
         popup_open = True
         popupWindow.open()
+    
+    def show_testdata(self):
+        popupWindow = MyBrowser('Select data to use for training', 'Select a file', "testdata") 
+    # Create the popup window
+        popup_open = True
+        popupWindow.open() # show the popup
+        popupWindow.bind(on_dismiss=lambda x:self.update_testdata())
     
     def show_train(self):
         popupWindow = MyBrowser('Select data to use for training', 'Select a file', "train") 
@@ -316,7 +376,14 @@ class MyWidget(BoxLayout):
         popup_open = True
         popupWindow.open() # show the popup
         popupWindow.bind(on_dismiss=lambda x:self.update_train())
-        
+    
+    def show_trainnet(self):
+        popupWindow = MyBrowser('Select model file (.pt)', 'Select a file', "trainnet") 
+    # Create the popup window
+        popup_open = True
+        popupWindow.open() # show the popup
+        popupWindow.bind(on_dismiss=lambda x:self.update_train())
+    
     def show_test(self):
         popupWindow = MyBrowser('Select pt (network) file to test', 'Select a file', "test") 
     # Create the popup window
@@ -346,6 +413,10 @@ class MyWidget(BoxLayout):
         popupWindow.bind(on_dismiss=lambda x:self.update_augwrite()) 
     
     def train_cnn(self):
+        import config as cfg
+        importlib.reload(cfg)
+        cfg.SAVE_MODEL_CNN = self.textinput8.text
+        cfg.TSV_READ_DATA = self.textinput.text
         self.update_train()
         tokenizer, le, train_X, test_X, train_y, test_y, embedding_matrix = prep_data()
         model = CNN_Text(le, embedding_matrix)
@@ -359,11 +430,15 @@ class MyWidget(BoxLayout):
         # os.system("python train.py -n cnn")
         
     def train_lstm(self):
+        import config as cfg
+        importlib.reload(cfg)
+        cfg.SAVE_MODEL_LSTM = self.textinput8.text
+        cfg.TSV_READ_DATA = self.textinput.text
         self.update_train()
         tokenizer, le, train_X, test_X, train_y, test_y, embedding_matrix = prep_data()
         model = BiLSTM(le, embedding_matrix)
         action = network('lstm')
-        p1 = Process(target = train_nn, args=(N, model, train_X, train_y, test_X, test_y, le, action))
+        p1 = Process(target = train_nn, args=(cfg.N, model, train_X, train_y, test_X, test_y, le, action))
         p1.start()
     
     def update_progress(self):
