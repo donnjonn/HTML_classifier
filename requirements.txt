@@ -3,7 +3,7 @@ Keras == 2.3.1
 matplotlib
 nlpaug == 0.0.13.3
 nltk == 3.4.5
-numpy == 1.18.1
+numpy == 1.22.0
 plotly == 4.6.0
 pytest == 5.3.5
 scikit_learn == 0.22.1
